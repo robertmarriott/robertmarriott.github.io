@@ -1,0 +1,26 @@
+{
+  "name": "robertmarriott.github.io",
+  "version": "1.0.0",
+  "description": "Robert Marriott's developer blog",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx @11ty/eleventy --serve & npx tailwindcss -i ./src/css/input.css -o ./_site/css/output.css --watch",
+    "build:prod": "npx @11ty/eleventy & npx tailwindcss -i ./src/css/input.css -o ./_site/css/output.css --minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robertmarriott/robertmarriott.github.io.git"
+  },
+  "author": "Robert Marriott",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robertmarriott/robertmarriott.github.io/issues"
+  },
+  "homepage": "https://github.com/robertmarriott/robertmarriott.github.io#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy-navigation": "^0.3.5",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
+    "tailwindcss": "^3.4.0"
+  }
+}
