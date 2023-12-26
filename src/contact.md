@@ -1,9 +1,9 @@
 ---
 layout: layout.njk
-title: Robert Marriott's Developer Blog
+title: Contact Robert Marriott
 eleventyNavigation:
-  key: Home
-  order: 0
+  key: Contact
+  order: 3
 ---
 
 # {{ title }}
